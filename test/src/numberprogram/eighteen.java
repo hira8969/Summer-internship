@@ -7,7 +7,7 @@ public class eighteen {
 	{
 		int first=0;
 		int second=1;
-//		int next=0;
+
 		System.out.print("Fibonacii Series of "+ n +"  ");
 		for(int i=1; i<=n;i++)
 		{

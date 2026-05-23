@@ -3,6 +3,15 @@ package numberprogram;
 import java.util.Scanner;
 
 public class ten {
+	public static int power(int num, int digit)
+	{
+		int pow= 1;
+		for(int i=1;i<=digit; i++)
+		{
+			pow *= num;
+		}
+		return pow;
+	}
 	public static void armstrong(int num)
 	{
 		int count=0;
@@ -17,7 +26,7 @@ public class ten {
 		while(t>0)
 		{
 			int last= t% 10;
-			sum += Math.pow(last , count);
+			sum += power(last , count);
 			t= t/10;
 		}
 		if (sum == real)

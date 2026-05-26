@@ -16,11 +16,16 @@ public class nineteen {
 			
 			arr[i]= sc.nextInt();
 		}
+		
+		squire(arr,n);
+	}
+	public static void squire(int arr[] , int n)
+	{
+		System.out.print("Squire of elements : "+ "  ");
 		for(int i=0;i<n;i++)
 		{
-			System.out.print(arr[i]* arr[i]);
+			System.out.print(arr[i]* arr[i] +"   ");
 		}
-
 	}
 
 }

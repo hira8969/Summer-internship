@@ -18,7 +18,7 @@ public class LibraryManagementSystem {
 
         while(true) {
 
-            System.out.println("\n===== LIBRARY MANAGEMENT SYSTEM =====");
+            System.out.println("\n------- LIBRARY MANAGEMENT SYSTEM ------");
 
             System.out.println("1. Add Book");
             System.out.println("2. View Books");

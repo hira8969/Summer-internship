@@ -4,6 +4,7 @@ public class thirty5 {
     public static void main(String [] ar)
     {
         int arr[]= {1,2,3,4,2,3};
+        printrepeted(arr);
     }
     static void printrepeted(int arr[])
     {

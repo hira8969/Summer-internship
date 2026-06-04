@@ -1,5 +1,5 @@
 package arrays;
-
+// 52. Write a Java program for selection sort.  
 public class fifty2 {
 
     public static void main(String[] args) {

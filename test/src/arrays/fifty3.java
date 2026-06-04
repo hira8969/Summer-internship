@@ -1,5 +1,5 @@
 package arrays;
-
+// 53. Write a Java program for quick sorting.  
 public class fifty3 {
 
     public static void main(String[] args) {

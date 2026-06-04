@@ -1,5 +1,5 @@
 package arrays;
-
+//8. Write a Java program to print even elements sum. 
 public class eight {
 
 	public static void main(String[] args) {

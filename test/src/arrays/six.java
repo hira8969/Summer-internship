@@ -1,5 +1,5 @@
 package arrays;
-
+//Write a Java program to print the sum of an array of elements. 
 public class six {
 
 	public static void main(String[] args) {

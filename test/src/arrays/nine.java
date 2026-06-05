@@ -1,5 +1,5 @@
 package arrays;
-
+//Write a Java program to print odd elements sum. 
 public class nine {
 
 	public static void main(String[] args) {

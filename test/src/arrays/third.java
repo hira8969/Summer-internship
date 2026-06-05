@@ -1,5 +1,5 @@
 package arrays;
-
+//3. Write a Java program to print odd index values of an array. 
 public class third {
 	public static void main(String []a)
 	{

@@ -1,5 +1,5 @@
 package arrays;
-
+//Write a Java program to print odd elements present in an array. 
 public class five {
 
 	public static void main(String[] args) {

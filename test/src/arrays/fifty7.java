@@ -12,16 +12,16 @@ public class fifty7 {
 
                 if (arr[i] > arr[j]) {
 
-                    char temp = arr[i];
+                    char t = arr[i];
                     arr[i] = arr[j];
-                    arr[j] = temp;
+                    arr[j] = t;
                 }
             }
         }
 
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]);
+            System.out.print(arr[i] );
 
             
         }

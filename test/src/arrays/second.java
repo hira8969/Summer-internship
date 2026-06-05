@@ -1,5 +1,5 @@
 package arrays;
-
+//2. Write a Java program to print even index values of an array. 
 public class second {
 	public static void main(String []a)
 	{

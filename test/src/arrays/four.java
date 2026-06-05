@@ -1,5 +1,5 @@
 package arrays;
-
+//Write a Java program to print even elements present in an array. 
 public class four {
 
 	public static void main(String[] args) {

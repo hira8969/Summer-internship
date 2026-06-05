@@ -6,7 +6,7 @@ public class fifty6 {
 
     public static void main(String[] args) {
 
-        String[] names = {"Ram", "Amar", "Cel", "David", "Bunny"};
+        String[] names = {"Ram", "Amar", "Cel", "David", "Bunny", "Hira"};
 
         Arrays.sort(names);
 

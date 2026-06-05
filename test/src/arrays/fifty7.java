@@ -1,5 +1,5 @@
 package arrays;
-// . Write a Java program to arrange the given character array into ascending order. input-{R, A, C, D, B} output-{A, B, C, D, R}    
+// . Write a Java program to arrange the given character array into ascending order. input-{R, A, C, D, B} output-{A, B, C, D, R}     
 public class fifty7 {
 
     public static void main(String[] args) {
@@ -21,9 +21,7 @@ public class fifty7 {
 
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] +"   " );
-
-            
+            System.out.print(arr[i] +"   " );  
         }
 
     }

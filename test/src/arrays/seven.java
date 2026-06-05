@@ -1,5 +1,5 @@
 package arrays;
-
+//Write a Java program to print even index values sum and odd index values sum. 
 public class seven {
 
 	public static void main(String[] args) {

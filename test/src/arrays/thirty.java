@@ -1,5 +1,5 @@
 package arrays;
-// write a java program to 
+// write a java program to find the sum of even digit 
 public class thirty {
     public static void main(String[] args) {
 

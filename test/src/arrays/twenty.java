@@ -1,5 +1,5 @@
 package arrays;
-//write a java program to find the largest element in the arrays 
+//write a java program to find the largest element in a given arrays 
 import java.util.Scanner;
 
 public class twenty {

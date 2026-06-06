@@ -1,5 +1,5 @@
 package arrays;
-//write a java program to 
+//write a java program to count the number of Zero present in the given arrays 
 public class thirteen {
 
 	public static void main(String[] args) {

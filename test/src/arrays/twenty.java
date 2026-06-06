@@ -1,5 +1,5 @@
 package arrays;
-
+//write a java program to
 import java.util.Scanner;
 
 public class twenty {

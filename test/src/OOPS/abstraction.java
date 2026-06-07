@@ -1,4 +1,5 @@
 package OOPS;
+//abstraction concept 
 abstract class Animal {
 
     abstract void sound();

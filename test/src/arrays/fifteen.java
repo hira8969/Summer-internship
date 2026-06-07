@@ -1,5 +1,5 @@
 package arrays;
-
+//write a java program 
 public class fifteen {
 
 	public static void main(String[] args) {

@@ -1,5 +1,5 @@
 package arrays;
-//write a java program to print an arrays last index
+//write a java program to print an arrays last index value of a given index 
 public class fifteen {
 
 	public static void main(String[] args) {

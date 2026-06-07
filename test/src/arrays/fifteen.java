@@ -3,7 +3,7 @@ package arrays;
 public class fifteen {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		 int[] arr = {1, 2, 9, 3, 9, 4, 9, 6, 7, 8};
 
 	        int element = 9;

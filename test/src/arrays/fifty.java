@@ -1,6 +1,6 @@
 
 package arrays;
-// 50. Write a Java program for bubble sorting.
+// 50. Write a Java program for bubble sorting.using method 
 public class fifty {
 
     public static void main(String[] args) {

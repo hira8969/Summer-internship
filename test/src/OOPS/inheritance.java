@@ -14,7 +14,7 @@ class Car extends Vehicle {
 public class inheritance {
 
 	public static void main(String[] args) {
-		// TODO Auto-gener
+		// TODO Auto-
 		Car c= new Car();
 		c.start();  // call parent call method 
 		c.drive();  // call child class method 

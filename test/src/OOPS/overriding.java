@@ -19,7 +19,7 @@ class Dog extends Animal {
 public class overriding {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method 
 		Dog d= new Dog();
 		d.sound();
 	}

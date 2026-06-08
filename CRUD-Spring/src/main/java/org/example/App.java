@@ -105,7 +105,7 @@ public class App {
 
                 default:
 
-                    System.out.println(" Invalid Choice");
+                    System.out.println(" Invalid Choice Plese enter VAlid choice");
             }
         }
     }

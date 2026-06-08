@@ -1,5 +1,5 @@
 package arrays;
-
+// write a java program to store characters in an array and print them in reverse order.
 public class first {
 
 	public static void main(String[] args) {

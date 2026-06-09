@@ -1,7 +1,7 @@
 package Arrays;
 
 import java.util.Arrays;
-
+//26. Remove Duplicates from Sorted Array
 public class RemoveDuplicates {
 
     public static int removeDuplicates(int[] nums) {

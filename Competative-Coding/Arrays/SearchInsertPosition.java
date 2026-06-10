@@ -1,7 +1,7 @@
 package Arrays;
 
 import java.util.Scanner;
-
+//35. Search Insert Position
 public class SearchInsertPosition {
 
     public static int searchInsert(int[] nums, int target) {

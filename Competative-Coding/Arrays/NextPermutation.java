@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
+//31. Next Permutation
 public class NextPermutation {
 
     public static void nextPermutation(int[] nums) {

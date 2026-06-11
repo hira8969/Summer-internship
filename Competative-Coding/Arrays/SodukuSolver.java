@@ -1,3 +1,4 @@
+package Arrays;
 public class SodukuSolver {
 
     public static void solveSudoku(char[][] board) {

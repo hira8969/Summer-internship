@@ -1,7 +1,7 @@
 
 package Arrays;
 import java.util.HashSet;
-
+//git commit -m "36. Valid Sudoku"
 public class ValidSudoku {
 
     public static boolean isValidSudoku(char[][] board) {

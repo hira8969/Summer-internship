@@ -1,7 +1,7 @@
 package Arrays;
 
 import java.util.*;
-
+//51. N-Queens
 public class N_Queens {
 
     public static List<List<String>> solveNQueens(int n) {

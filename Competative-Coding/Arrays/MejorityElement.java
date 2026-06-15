@@ -14,7 +14,7 @@ public class MejorityElement {
             }
 
             if (num == candidate) {
-                count++
+                count++;
             } else {
                 count--;
             }

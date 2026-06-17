@@ -3,7 +3,7 @@ package test;
 public class operator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated m
+		// TODO Auto-generated 
 		int a=10;
 		int b=20;
 		System.out.println("Arithmetic Operator");

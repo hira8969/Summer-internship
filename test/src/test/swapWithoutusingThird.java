@@ -3,7 +3,7 @@ package test;
 public class swapWithoutusingThird {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method st
+		// TODO Auto-generated method s
 		int a = 10;
         int b = 20;
 

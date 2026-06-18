@@ -18,7 +18,6 @@ public class SortedArrtoBinarytree {
     public static TreeNode sortedArrayToBST(int[] nums) {
         return buildBST(nums, 0, nums.length - 1);
     }
-
     private static TreeNode buildBST(int[] nums, int left, int right) {
 
         if (left > right) {

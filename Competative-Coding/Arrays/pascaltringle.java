@@ -2,7 +2,7 @@ package Arrays;
 
 
 import java.util.*;
-
+//118. Pascal's Triangle
 public class pascaltringle {
 
     public static List<List<Integer>> generate(int numRows) {

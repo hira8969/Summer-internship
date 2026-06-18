@@ -1,10 +1,10 @@
 package Arrays;
 
-public class pascaltringle {
+
     
 import java.util.*;
 
-
+public class pascaltringle {
 
     public static List<List<Integer>> generate(int numRows) {
 

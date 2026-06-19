@@ -1,7 +1,6 @@
 package Arrays;
 
-
-    
+  
 import java.util.*;
 public class wordsearch2 {
     static class TrieNode {

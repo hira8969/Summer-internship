@@ -3,7 +3,6 @@ package Arrays;
 import java.util.*;
 
 public class numberofIslands {
-
     public static int numIslands(char[][] grid) {
 
         int count = 0;

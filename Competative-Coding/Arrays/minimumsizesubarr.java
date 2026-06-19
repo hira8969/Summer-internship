@@ -2,7 +2,6 @@ package Arrays;
 
 public class minimumsizesubarr {
     
-
     public static int minSubArrayLen(int target, int[] nums) {
 
         int left = 0;

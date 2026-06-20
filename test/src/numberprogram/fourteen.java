@@ -33,7 +33,7 @@ public class fourteen {
 		{
 			fact *= i;
 		}
-		return fact;
+		
 	}
 
 }

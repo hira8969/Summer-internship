@@ -1,6 +1,6 @@
 public class EvenOrOdd {
     public static void main(String[] args) {
-        int number = 7; // You can change this number to test with  
+        int number = 7; // You can change this number to test
         if ((number & 1) == 0) {
             System.out.println(number + " is even.");
         } else {

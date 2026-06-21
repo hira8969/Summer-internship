@@ -1,7 +1,6 @@
 package Arrays;
 
 
-    
 public class SearchIn2dmatrix {
     public static boolean searchMatrix(int[][] matrix, int target) {
 

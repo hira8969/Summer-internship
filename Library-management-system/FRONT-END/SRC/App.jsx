@@ -16,12 +16,7 @@ function App() {
   const [selectedMemberId, setSelectedMemberId] = useState("");
   const [currentUser, setCurrentUser] = useState(() => {
     const savedUser = sessionStorage.getItem("library-current-user");
-    if (!savedUser) {
-      return null;
-    }
-
-    const parsedUser = JSON.parse(savedUser);
-    return parsedUser.role === "student" ? parsedUser : null;
+    return savedUser ? JSON.parse(savedUser) : null;
   });
   const [notice, setNotice] = useState("");
 
@@ -162,7 +157,27 @@ function App() {
   };
 
   const handleLoginSelect = (loginType) => {
-    setModal("student-login");
+    if (loginType === "student") {
+      setModal("student-login");
+      return;
+    }
+
+    setModal("admin-login");
+  };
+
+  const handleAdminLogin = (event) => {
+    event.preventDefault();
+    const form = new FormData(event.currentTarget);
+    const adminUser = {
+      role: "admin",
+      name: "CUTM Admin",
+      email: form.get("email").trim(),
+    };
+
+    setCurrentUser(adminUser);
+    sessionStorage.setItem("library-current-user", JSON.stringify(adminUser));
+    setModal(null);
+    notify("Logged in as Admin.");
   };
 
   const handleStudentLogin = async (event) => {
@@ -186,12 +201,6 @@ function App() {
     }
   };
 
-  const handleLogout = () => {
-    setCurrentUser(null);
-    sessionStorage.removeItem("library-current-user");
-    notify("Logged out successfully.");
-  };
-
   return (
     <div className="app-shell">
       <Navbar 
@@ -201,62 +210,38 @@ function App() {
         currentUser={currentUser}
         onRegisterClick={() => setModal("member")}
         onLoginClick={() => setModal("login")}
-        onLogout={handleLogout}
       />
 
       <main>
-        {currentUser ? (
-          <>
-            <Header
-              view={view}
-              openSearch={openBookSearch}
-              openAddBook={() => setModal("book")}
-              openDeleteBooks={() => {
-                setView("books");
-                notify("Use Delete on the book you want to remove.");
-              }}
-            />
+        <Header
+          view={view}
+          openSearch={openBookSearch}
+          openAddBook={() => setModal("book")}
+          openDeleteBooks={() => {
+            setView("books");
+            notify("Use Delete on the book you want to remove.");
+          }}
+        />
 
-            <Body
-              view={view}
-              data={data}
-              books={filteredBooks}
-              activeLoans={activeLoans}
-              categories={categories}
-              category={category}
-              search={search}
-              setSearch={setSearch}
-              setCategory={setCategory}
-              setView={setView}
-              setModal={setModal}
-              openIssueModal={openIssueModal}
-              deleteBook={deleteBook}
-              notify={notify}
-              returnBook={returnBook}
-            />
+        <Body
+          view={view}
+          data={data}
+          books={filteredBooks}
+          activeLoans={activeLoans}
+          categories={categories}
+          category={category}
+          search={search}
+          setSearch={setSearch}
+          setCategory={setCategory}
+          setView={setView}
+          setModal={setModal}
+          openIssueModal={openIssueModal}
+          deleteBook={deleteBook}
+          notify={notify}
+          returnBook={returnBook}
+        />
 
-            <Footer />
-          </>
-        ) : (
-          <section className="login-required-panel">
-            <div className="login-required-content">
-              <span className="login-required-kicker">Login required</span>
-              <h1>Please login to access the library system</h1>
-              <p>
-                Only registered members can view books, issue records, member lists,
-                and dashboard data.
-              </p>
-              <div className="login-required-actions">
-                <button type="button" className="auth-btn-login" onClick={() => setModal("login")}>
-                  Login
-                </button>
-                <button type="button" className="auth-btn-register" onClick={() => setModal("member")}>
-                  Register
-                </button>
-              </div>
-            </div>
-          </section>
-        )}
+        <Footer />
       </main>
 
       <LibraryModal
@@ -267,6 +252,7 @@ function App() {
         addMember={addMember}
         issueBook={issueBook}
         handleLoginSelect={handleLoginSelect}
+        handleAdminLogin={handleAdminLogin}
         handleStudentLogin={handleStudentLogin}
         backToLoginOptions={() => setModal("login")}
         selectedBookId={selectedBookId}

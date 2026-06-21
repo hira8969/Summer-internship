@@ -11,7 +11,5 @@ public interface MemberRepository extends JpaRepository<Member, Long> {
     boolean existsByRegistrationNumberIgnoreCase(String registrationNumber);
 
     Optional<Member> findByNameIgnoreCaseAndEmailIgnoreCaseAndRegistrationNumberIgnoreCase(
-            String name,
-            String email,
-            String registrationNumber);
+            String name, String email, String registrationNumber);
 }

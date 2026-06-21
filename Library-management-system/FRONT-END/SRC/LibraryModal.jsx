@@ -6,6 +6,7 @@ export default function LibraryModal({
   addMember,
   issueBook,
   handleLoginSelect,
+  handleAdminLogin,
   handleStudentLogin,
   backToLoginOptions,
   selectedBookId,
@@ -15,18 +16,23 @@ export default function LibraryModal({
 
   return (
     <div className="modal-overlay active" onClick={closeModal}>
-      <div className="modal-content" onClick={(event) => event.stopPropagation()}>
-        <button className="close-btn" onClick={closeModal}>x</button>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <button className="close-btn" onClick={closeModal}>✕</button>
 
         {modal === "login" && (
           <div className="login-selection">
-            <h2>Member Login</h2>
-            <p>Only registered library members can continue.</p>
+            <h2>Login</h2>
+            <p>Select your login type:</p>
             <div className="login-options">
               <button className="login-option student" onClick={() => handleLoginSelect("student")}>
-                <span>M</span>
-                <strong>Login as Registered Admin </strong>
-                <p>Use the same details saved during registration</p>
+                <span>🎓</span>
+                <strong>Login as Student</strong>
+                <p>Access student portal</p>
+              </button>
+              <button className="login-option admin" onClick={() => handleLoginSelect("admin")}>
+                <span>👨‍💼</span>
+                <strong>Login as Admin</strong>
+                <p>Access admin panel</p>
               </button>
             </div>
           </div>
@@ -34,8 +40,8 @@ export default function LibraryModal({
 
         {modal === "student-login" && (
           <form className="student-login-form" onSubmit={handleStudentLogin}>
-            <h2>Member Login</h2>
-            <p>Enter your registered member details to continue.</p>
+            <h2>Student Login</h2>
+            <p>Enter your student details to continue.</p>
             <label>
               Name
               <input type="text" name="name" placeholder="Full name" autoComplete="name" required />
@@ -58,6 +64,40 @@ export default function LibraryModal({
                 placeholder="Registration number"
                 minLength="3"
                 autoComplete="off"
+                required
+              />
+            </label>
+            <label>
+              Password
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                minLength="6"
+                autoComplete="current-password"
+                required
+              />
+            </label>
+            <div className="login-form-actions">
+              <button type="button" className="secondary" onClick={backToLoginOptions}>
+                Back
+              </button>
+              <button type="submit" className="primary">Login</button>
+            </div>
+          </form>
+        )}
+
+        {modal === "admin-login" && (
+          <form className="admin-login-form" onSubmit={handleAdminLogin}>
+            <h2>Admin Login</h2>
+            <p>Enter your administrator credentials to continue.</p>
+            <label>
+              Email
+              <input
+                type="email"
+                name="email"
+                placeholder="admin@example.com"
+                autoComplete="username"
                 required
               />
             </label>

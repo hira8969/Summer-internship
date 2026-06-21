@@ -17,12 +17,11 @@ function Navbar({
   currentUser,
   onRegisterClick,
   onLoginClick,
-  onLogout,
 }) {
-  const displayName = currentUser?.name || "Guest";
+  const displayName = currentUser?.name || "CUTM ADMIN";
   const profileDetail = currentUser?.role === "student"
     ? currentUser.registrationNumber
-    : "Please login";
+    : "Online";
 
   return (
     <aside className="new-sidebar">
@@ -41,69 +40,48 @@ function Navbar({
       </div>
 
       <div className="auth-buttons">
-        {currentUser ? (
-          <>
-            <div className="welcome-message">
-              Welcome, <strong>{currentUser.name}</strong>
-            </div>
-            <button className="auth-btn-logout" onClick={onLogout}>
-              Logout
-            </button>
-          </>
-        ) : (
-          <>
-            <button className="auth-btn-register" onClick={onRegisterClick}>
-              Register
-            </button>
-            <button className="auth-btn-login" onClick={onLoginClick}>
-              Login
-            </button>
-          </>
-        )}
+        <button className="auth-btn-register" onClick={onRegisterClick}>
+          Register
+        </button>
+        <button className="auth-btn-login" onClick={onLoginClick}>
+          Login
+        </button>
       </div>
 
-      {currentUser ? (
-        <>
-          <div className="sidebar-section">
-            <h4 className="section-title">HEADER</h4>
-            <nav className="sidebar-nav">
-              {menuItems.map((item) => (
-                <button
-                  className={`nav-item ${view === item.id ? "active" : ""}`}
-                  key={item.id}
-                  onClick={() => setView(item.id)}
-                >
-                  <span className="nav-icon">{item.icon}</span>
-                  {item.label}
-                  {item.id === "loans" && activeLoanCount > 0 && (
-                    <span className="nav-count">{activeLoanCount}</span>
-                  )}
-                </button>
-              ))}
-            </nav>
-          </div>
+      <div className="sidebar-section">
+        <h4 className="section-title">HEADER</h4>
+        <nav className="sidebar-nav">
+          {menuItems.map((item) => (
+            <button
+              className={`nav-item ${view === item.id ? "active" : ""}`}
+              key={item.id}
+              onClick={() => setView(item.id)}
+            >
+              <span className="nav-icon">{item.icon}</span>
+              {item.label}
+              {item.id === "loans" && activeLoanCount > 0 && (
+                <span className="nav-count">{activeLoanCount}</span>
+              )}
+            </button>
+          ))}
+        </nav>
+      </div>
 
-          <div className="sidebar-section">
-            <h4 className="section-title">ACTIONS</h4>
-            <nav className="sidebar-nav">
-              {additionalItems.map((item) => (
-                <button
-                  className={`nav-item ${view === item.id ? "active" : ""}`}
-                  key={item.id}
-                  onClick={() => setView(item.id)}
-                >
-                  <span className="nav-icon">{item.icon}</span>
-                  {item.label}
-                </button>
-              ))}
-            </nav>
-          </div>
-        </>
-      ) : (
-        <div className="login-required-sidebar">
-          Login is required to access the library dashboard.
-        </div>
-      )}
+      <div className="sidebar-section">
+        <h4 className="section-title">ACTIONS</h4>
+        <nav className="sidebar-nav">
+          {additionalItems.map((item) => (
+            <button
+              className={`nav-item ${view === item.id ? "active" : ""}`}
+              key={item.id}
+              onClick={() => setView(item.id)}
+            >
+              <span className="nav-icon">{item.icon}</span>
+              {item.label}
+            </button>
+          ))}
+        </nav>
+      </div>
     </aside>
   );
 }

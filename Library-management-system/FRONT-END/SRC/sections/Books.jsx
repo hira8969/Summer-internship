@@ -20,14 +20,9 @@ export default function Books({
           placeholder="Search by title, author, or ISBN"
         />
         <label>Category:</label>
-        <select
-          value={category}
-          onChange={(event) => setCategory(event.target.value)}
-        >
+        <select value={category} onChange={(event) => setCategory(event.target.value)}>
           {categories.map((item) => (
-            <option key={item} value={item}>
-              {item}
-            </option>
+            <option key={item} value={item}>{item}</option>
           ))}
         </select>
       </div>
@@ -36,22 +31,13 @@ export default function Books({
         {books.length > 0 ? (
           books.map((book) => (
             <article key={book.id} className="book-card">
-              <div
-                className="book-header"
-                style={{ backgroundColor: book.accent }}
-              >
+              <div className="book-header" style={{ backgroundColor: book.accent }}>
                 <span className="book-title">{book.title}</span>
               </div>
               <div className="book-content">
-                <p>
-                  <strong>Author:</strong> {book.author}
-                </p>
-                <p>
-                  <strong>ISBN:</strong> {book.isbn}
-                </p>
-                <p>
-                  <strong>Available:</strong> {book.available} of {book.copies}
-                </p>
+                <p><strong>Author:</strong> {book.author}</p>
+                <p><strong>ISBN:</strong> {book.isbn}</p>
+                <p><strong>Available:</strong> {book.available} of {book.copies}</p>
                 <div className="card-actions">
                   <button
                     type="button"
@@ -63,9 +49,7 @@ export default function Books({
                   <button
                     type="button"
                     className="details-btn"
-                    onClick={() =>
-                      notify(`${book.title} was published in ${book.year}.`)
-                    }
+                    onClick={() => notify(`${book.title} was published in ${book.year}.`)}
                   >
                     Details
                   </button>

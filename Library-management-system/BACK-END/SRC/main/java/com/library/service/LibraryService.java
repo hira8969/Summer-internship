@@ -175,10 +175,6 @@ public class LibraryService {
                 .orElseThrow(() -> new IllegalArgumentException("Member not found"));
     }
 
-    public String createPasswordHash(String password) {
-        return hashPassword(password);
-    }
-
     private String hashPassword(String password) {
         byte[] salt = new byte[16];
         secureRandom.nextBytes(salt);

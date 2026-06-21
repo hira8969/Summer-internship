@@ -194,8 +194,7 @@ body {
 }
 
 .auth-btn-register,
-.auth-btn-login,
-.auth-btn-logout {
+.auth-btn-login {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -225,97 +224,6 @@ body {
 .auth-btn-login:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(243, 156, 18, 0.4);
-}
-
-.auth-btn-logout {
-  border-color: #f44336;
-  background: #f44336;
-  color: white;
-}
-
-.auth-btn-logout:hover {
-  background: #d7372f;
-  border-color: #d7372f;
-  box-shadow: 0 4px 12px rgba(244, 67, 54, 0.35);
-}
-
-.welcome-message {
-  padding: 10px 12px;
-  border: 1px solid rgba(76, 175, 80, 0.35);
-  border-radius: 6px;
-  background: rgba(76, 175, 80, 0.12);
-  color: #cfead6;
-  font-size: 12px;
-  line-height: 1.4;
-}
-
-.welcome-message strong {
-  color: white;
-}
-
-.login-required-sidebar {
-  margin: 0 20px 24px;
-  padding: 12px;
-  border: 1px solid rgba(243, 156, 18, 0.3);
-  border-radius: 6px;
-  background: rgba(243, 156, 18, 0.08);
-  color: #d8d8d8;
-  font-size: 12px;
-  line-height: 1.5;
-}
-
-.login-required-panel {
-  min-height: calc(100vh - 60px);
-  display: grid;
-  place-items: center;
-  padding: 40px 20px;
-}
-
-.login-required-content {
-  width: min(680px, 100%);
-  padding: 36px;
-  border: 1px solid #e6e6e6;
-  border-radius: 8px;
-  background: white;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  text-align: center;
-}
-
-.login-required-kicker {
-  display: inline-block;
-  margin-bottom: 12px;
-  color: var(--orange);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-}
-
-.login-required-content h1 {
-  margin: 0;
-  color: var(--text-dark);
-  font-family: "DM Sans", sans-serif;
-  font-size: 28px;
-  letter-spacing: 0;
-}
-
-.login-required-content p {
-  max-width: 520px;
-  margin: 14px auto 0;
-  color: var(--text-light);
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-.login-required-actions {
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 24px;
-}
-
-.login-required-actions button {
-  min-width: 120px;
 }
 
 .auth-btn-register span,

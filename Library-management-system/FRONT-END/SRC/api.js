@@ -1,5 +1,4 @@
-const POSTMAN_API_BASE_URL = "http://localhost:8080/api";
-const API_BASE_URL = (import.meta.env.VITE_API_URL || POSTMAN_API_BASE_URL).replace(/\/$/, "");
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:8080/api";
 
 async function request(path, options = {}) {
   const response = await fetch(`${API_BASE_URL}${path}`, {
@@ -30,7 +29,6 @@ export const libraryApi = {
   getBooks: () => request("/books"),
   getMembers: () => request("/members"),
   getLoans: () => request("/loans"),
-  getActiveLoans: () => request("/loans/active"),
   addBook: (book) =>
     request("/books", {
       method: "POST",

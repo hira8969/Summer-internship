@@ -2,7 +2,7 @@ package Arrays;
 
 public class missingnumber {
     
-public class Main {
+
 
     public static int missingNumber(int[] nums) {
 

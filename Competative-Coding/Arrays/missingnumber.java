@@ -1,5 +1,5 @@
 package Arrays;
-//268. Missing Number
+//268. Missing Numbe
 public class missingnumber {    
     public static int missingNumber(int[] nums) {
 

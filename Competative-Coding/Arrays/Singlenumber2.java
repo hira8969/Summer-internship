@@ -3,7 +3,6 @@ package Arrays;
 
     
 import java.util.Arrays;
-
 public class Singlenumber2 {
     public static int[] singleNumber(int[] nums) {
 

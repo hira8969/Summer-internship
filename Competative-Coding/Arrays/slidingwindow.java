@@ -3,7 +3,6 @@ import java.util.*;
 public class slidingwindow {
     
 
-
     public static int[] maxSlidingWindow(int[] nums, int k) {
 
         int n = nums.length;

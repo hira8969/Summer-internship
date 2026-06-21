@@ -1,7 +1,6 @@
 package Arrays;
 import java.util.*;
-public class slidingwindow {
-    
+public class slidingwindow { 
 
     public static int[] maxSlidingWindow(int[] nums, int k) {
 

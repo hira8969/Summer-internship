@@ -1,5 +1,5 @@
 package Arrays;
-//373. Find K Pairs with Smallest   
+//373. Find K Pairs with   
 import java.util.*;
 public class K_pair_with_smallest_ele {
 

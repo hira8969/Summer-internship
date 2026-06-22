@@ -1,7 +1,7 @@
 package Arrays;
 
 
-//350. Intersection of Two Arrays 
+//350. Intersection of Two 
 import java.util.*;
 
 public class InsertionofTwoarr {

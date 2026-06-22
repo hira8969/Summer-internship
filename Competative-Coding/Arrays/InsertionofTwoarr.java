@@ -4,7 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-
+public class InsertionofTwoarr {
 
     public static int[] intersect(int[] nums1, int[] nums2) {
 

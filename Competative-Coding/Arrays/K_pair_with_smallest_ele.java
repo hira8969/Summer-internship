@@ -1,9 +1,9 @@
 package Arrays;
 
-public class K_pair_with_smallest_ele {
+
     
 import java.util.*;
-
+public class K_pair_with_smallest_ele {
 
     public static List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
 

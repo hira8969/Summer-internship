@@ -5,7 +5,6 @@ public class combinationSum4 {
 
 import java.util.*;
 
-public class Main {
 
     public static int combinationSum4(int[] nums, int target) {
 

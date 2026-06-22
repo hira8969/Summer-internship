@@ -5,7 +5,7 @@ public class LargestDivisibleSubset {
 
 import java.util.*;
 
-public class Main {
+
 
     public static List<Integer> largestDivisibleSubset(int[] nums) {
 

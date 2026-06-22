@@ -1,6 +1,6 @@
 package Arrays;
 
-public class InsertionofTwoarr {
+
     
 import java.util.*;
 

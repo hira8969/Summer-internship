@@ -1,11 +1,11 @@
 package Arrays;
 
-public class Non-overlappingIntervals {
+
     
 
 import java.util.Arrays;
 
-public class Main {
+public class Non-overlappingIntervals {
 
     public static int eraseOverlapIntervals(int[][] intervals) {
 

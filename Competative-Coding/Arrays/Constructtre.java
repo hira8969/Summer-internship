@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Constructtre {
+
     
 class Node {
 
@@ -35,7 +35,7 @@ class Node {
         this.bottomRight = bottomRight;
     }
 }
-
+public class Constructtre {
 public class Main {
 
     public static Node construct(int[][] grid) {

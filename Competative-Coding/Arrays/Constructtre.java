@@ -36,7 +36,7 @@ class Node {
     }
 }
 public class Constructtre {
-public class Main {
+
 
     public static Node construct(int[][] grid) {
         return build(grid, 0, 0, grid.length);

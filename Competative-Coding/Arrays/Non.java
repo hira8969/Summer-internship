@@ -2,7 +2,7 @@ package Arrays;
 
 public class Non-overlappingIntervals {
     
-}
+
 import java.util.Arrays;
 
 public class Main {

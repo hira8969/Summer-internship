@@ -1,6 +1,5 @@
 package Arrays;
 
-  
 class Node {
 
     public boolean val;

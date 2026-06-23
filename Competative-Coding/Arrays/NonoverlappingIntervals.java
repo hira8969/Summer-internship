@@ -2,10 +2,9 @@ package Arrays;
 
 
     
-
 import java.util.Arrays;
 
-public class Non-overlappingIntervals {
+public class NonoverlappingIntervals {
 
     public static int eraseOverlapIntervals(int[][] intervals) {
 

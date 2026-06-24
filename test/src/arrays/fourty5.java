@@ -1,6 +1,6 @@
 package arrays;
 import java.util.Arrays;
-//45. Write a Java program to copy an array using arraycopy() method.  
+//45. Write a Java program to copy an array using arraycopy() .  
 public class fourty5
 {
     public static void main(String [] a)

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class fifteen {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method 
+		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");

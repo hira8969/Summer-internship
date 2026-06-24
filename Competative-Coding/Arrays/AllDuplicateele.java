@@ -1,11 +1,10 @@
 package Arrays;
 
-public class AllDuplicateele {
+
     
 import java.util.*;
 
-public class Main {
-
+public class AllDuplicateele {
     public static List<Integer> findDuplicates(int[] nums) {
 
         List<Integer> ans = new ArrayList<>();

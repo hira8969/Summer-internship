@@ -1,7 +1,6 @@
 package Arrays;
 
-//436. Find Right Interval
-    
+//436. Find Right Interval  
 import java.util.Arrays;
 
 public class RightIntervells {

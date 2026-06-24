@@ -1,10 +1,10 @@
 package Arrays;
 
-public class RightIntervells {
+
     
 import java.util.Arrays;
 
-public class Main {
+public class RightIntervells {
 
     public static int[] findRightInterval(int[][] intervals) {
 

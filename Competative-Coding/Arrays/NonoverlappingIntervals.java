@@ -3,7 +3,6 @@ package Arrays;
 
     
 import java.util.Arrays;
-
 public class NonoverlappingIntervals {
 
     public static int eraseOverlapIntervals(int[][] intervals) {

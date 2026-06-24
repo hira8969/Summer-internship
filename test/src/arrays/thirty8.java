@@ -1,5 +1,6 @@
 package arrays;
 
+
 public class thirty8 {
     public static void main(String[] a) {
         int[] arr1 = {1, 2, 4, 5, 6};

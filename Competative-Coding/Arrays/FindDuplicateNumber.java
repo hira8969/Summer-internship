@@ -1,8 +1,7 @@
 package Arrays;
 
 public class FindDuplicateNumber {
-
-    
+   
     public static int findDuplicate(int[] nums) {
         int slow = nums[0];
         int fast = nums[0];

@@ -2,7 +2,6 @@ package Arrays;
 import java.util.Scanner;
 public class CountSubarrWithmejorityele {
     
-
     public static int countMajoritySubarrays(int[] nums, int target) {
         int n = nums.length;
         int ans = 0;

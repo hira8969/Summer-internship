@@ -2,7 +2,7 @@ package Arrays;
 
 public class CountSubarrWithmejorityele {
     
-}
+
 import java.util.Scanner;
 
 public class Main {

@@ -5,7 +5,7 @@ public class CountSubarrWithmejorityele {
 
 
 
-public class Main {
+
 
     public static int countMajoritySubarrays(int[] nums, int target) {
         int n = nums.length;

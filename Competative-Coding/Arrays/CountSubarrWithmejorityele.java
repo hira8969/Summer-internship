@@ -1,9 +1,9 @@
 package Arrays;
-
+import java.util.Scanner;
 public class CountSubarrWithmejorityele {
     
 
-import java.util.Scanner;
+
 
 public class Main {
 

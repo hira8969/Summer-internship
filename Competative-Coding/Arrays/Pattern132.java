@@ -1,11 +1,10 @@
 package Arrays;
 
-public class Pattern132 {
+
     
 import java.util.Stack;
 
-public class Main {
-
+public class Pattern132 {
     public static boolean find132pattern(int[] nums) {
 
         Stack<Integer> stack = new Stack<>();

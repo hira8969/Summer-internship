@@ -3,7 +3,7 @@ package Arrays;
 public class FindDuplicateNumber {
 
     
-public class FindDuplicateNumber {
+
 
     public static int findDuplicate(int[] nums) {
         int slow = nums[0];

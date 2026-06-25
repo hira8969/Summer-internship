@@ -1,6 +1,5 @@
 package Arrays;
 
-public class FourSumII {
     
 import java.util.HashMap;
 

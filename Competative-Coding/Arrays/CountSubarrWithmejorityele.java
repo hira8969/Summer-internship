@@ -1,5 +1,6 @@
 package Arrays;
 import java.util.Scanner;
+//3737. Count Subarrays With Majority Element I
 public class CountSubarrWithmejorityele {
     
     public static int countMajoritySubarrays(int[] nums, int target) {

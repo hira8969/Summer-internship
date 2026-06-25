@@ -1,5 +1,5 @@
 package Arrays;
-
+//287. Find the Duplicate Number
 public class FindDuplicateNumber {
    
     public static int findDuplicate(int[] nums) {

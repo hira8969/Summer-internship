@@ -2,6 +2,7 @@ package Arrays;
 
 import java.util.Arrays;
 
+
 public class CreateMaximumNumber {
 
     public static int[] maxNumber(int[] nums1, int[] nums2, int k) {

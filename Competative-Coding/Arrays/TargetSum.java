@@ -1,11 +1,10 @@
 package Arrays;
 
-public class TargetSum {
+
     
 import java.util.*;
 
-public class Main {
-
+public class TargetSum {
     public static int findTargetSumWays(int[] nums, int target) {
 
         int sum = 0;

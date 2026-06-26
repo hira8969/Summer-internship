@@ -1,11 +1,10 @@
 package Arrays;
 
-public class SlidingWindowMedian {
+
     
 import java.util.*;
 
-public class Main {
-
+public class SlidingWindowMedian {
     static class SlidingMedian {
 
         PriorityQueue<Long> small = new PriorityQueue<>(Collections.reverseOrder());

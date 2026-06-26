@@ -1,11 +1,10 @@
 package Arrays;
 
-public class CountSubarray {
+
     
 import java.util.*;
 
-public class Main {
-
+public class CountSubarray {
     static class Fenwick {
         int[] bit;
         int n;

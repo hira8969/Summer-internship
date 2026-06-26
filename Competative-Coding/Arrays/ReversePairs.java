@@ -1,11 +1,10 @@
 package Arrays;
 
-public class ReversePairs {
+
     
 import java.util.*;
 
-public class Main {
-
+public class ReversePairs {
     public static int reversePairs(int[] nums) {
         return mergeSort(nums, 0, nums.length - 1);
     }

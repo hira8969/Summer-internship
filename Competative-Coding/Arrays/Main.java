@@ -1,6 +1,6 @@
 package Arrays;
 
-public class ContiguousArray {
+
     
 import java.util.*;
 

@@ -4,8 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-public class Main {
-
+public class ContiguousArray {
     public static int findMaxLength(int[] nums) {
 
         HashMap<Integer, Integer> map = new HashMap<>();

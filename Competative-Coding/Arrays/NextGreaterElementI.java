@@ -1,5 +1,6 @@
 package Arrays;
 //496. Next Greater Element I 
+
 import java.util.*;
 
 public class NextGreaterElementI {

@@ -4,8 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-public class Main {
-
+public class DiagonalTraverse {
     public static int[] findDiagonalOrder(int[][] mat) {
         int m = mat.length;
         int n = mat[0].length;

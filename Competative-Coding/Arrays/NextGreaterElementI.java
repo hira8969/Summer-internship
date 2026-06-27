@@ -3,6 +3,7 @@ package Arrays;
 
 import java.util.*;
 
+
 public class NextGreaterElementI {
     public static int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map = new HashMap<>();

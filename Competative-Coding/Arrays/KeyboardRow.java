@@ -4,8 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-public class Main {
-
+public class KeyboardRow {
     public static String[] findWords(String[] words) {
 
         String row1 = "qwertyuiop";

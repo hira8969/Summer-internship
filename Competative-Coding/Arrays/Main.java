@@ -1,6 +1,6 @@
 package Arrays;
 
-public class DiagonalTraverse {
+
     
 import java.util.*;
 

@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.*;
 
-public class Main {
+public class BeautifulArrangement {
 
     static int count = 0;
 

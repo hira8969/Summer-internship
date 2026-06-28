@@ -1,7 +1,7 @@
 package Arrays;
 
 import java.util.*;
-
+//526. Beautiful Arrangement
 public class BeautifulArrangement {
 
     static int count = 0;

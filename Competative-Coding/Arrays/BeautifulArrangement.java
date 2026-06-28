@@ -6,6 +6,7 @@ public class BeautifulArrangement {
 
     static int count = 0;
 
+    
     public static void backtrack(int pos, int n, boolean[] used) {
 
         if (pos > n) {

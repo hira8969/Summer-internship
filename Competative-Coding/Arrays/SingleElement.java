@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.*;
 
-public class Main {
+public class SingleElement {
 
     public static int singleNonDuplicate(int[] nums) {
 

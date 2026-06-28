@@ -1,6 +1,7 @@
 package Arrays;
 import java.util.*;
 //540. Single Element in a Sorted Array
+
 public class SingleElement {
 
     public static int singleNonDuplicate(int[] nums) {

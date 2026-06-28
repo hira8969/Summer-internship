@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class  {
+public class maximumElement {
 
     public static int maximumElementAfterDecrementingAndRearranging(int[] arr) {
 

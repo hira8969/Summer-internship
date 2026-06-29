@@ -47,3 +47,4 @@ public class BeautifulArrangement {
         sc.close();
     }
 }
+

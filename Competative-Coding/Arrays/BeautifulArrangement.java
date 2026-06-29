@@ -45,6 +45,7 @@ public class BeautifulArrangement {
         System.out.println(countArrangement(n));
 
         sc.close();
+        
     }
 }
 

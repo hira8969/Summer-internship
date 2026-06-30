@@ -1,6 +1,6 @@
 package Arrays;
 
-public class CountofRangeSum {
+
     
 import java.util.*;
 

@@ -1,11 +1,10 @@
 package Arrays;
 
-public class CoinChange {
+
     
 import java.util.*;
 
-public class Main {
-
+public class CoinChange {
     public static int coinChange(int[] coins, int amount) {
 
         int[] dp = new int[amount + 1];

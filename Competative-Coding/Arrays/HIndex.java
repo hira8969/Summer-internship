@@ -1,11 +1,10 @@
 package Arrays;
 
-public class HIndex {
+
     
 import java.util.Arrays;
 
-public class Main {
-
+public class HIndex {
     public static int hIndex(int[] citations) {
         Arrays.sort(citations);
 

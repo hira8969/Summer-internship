@@ -1,10 +1,9 @@
 package Arrays;
 
-public class CountofSmallerNumbersAfterSelf {
     
 import java.util.*;
 
-public class Main {
+public class CountofSmallerNumbersAfterSelf {
 
     private static int[] count;
     private static int[] indexes;

@@ -4,8 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-public class Main {
-
+public class CountofRangeSum {
     public static int countRangeSum(int[] nums, int lower, int upper) {
         long[] prefix = new long[nums.length + 1];
 

@@ -3,7 +3,6 @@ package Arrays;
 public class FindDuplicateFileinSystem {
    
 
-class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
 
         Map<String, List<String>> map = new HashMap<>();

@@ -2,7 +2,7 @@ package Arrays;
 
 
     
-class Solution {
+public class RemoveBoxes {
     int[][][] dp;
     int[] boxes;
 

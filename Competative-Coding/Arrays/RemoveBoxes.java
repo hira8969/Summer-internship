@@ -1,6 +1,6 @@
 package Arrays;
 
-public class RemoveBoxes {
+
     
 class Solution {
     int[][][] dp;

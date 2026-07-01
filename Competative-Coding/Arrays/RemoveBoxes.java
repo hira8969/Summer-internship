@@ -44,7 +44,7 @@ public class RemoveBoxes {
     public static void main(String[] args) {
         int[] boxes = {1,3,2,2,2,3,4,3,1};
 
-        Solution sol = new Solution();
+        RemoveBoxes sol = new RemoveBoxes();
         System.out.println(sol.removeBoxes(boxes));
     }
 }

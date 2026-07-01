@@ -1,8 +1,7 @@
 package Arrays;
 
-public class OptimalDivision {
     
-class Solution {
+public class OptimalDivision {
     public String optimalDivision(int[] nums) {
         int n = nums.length;
 

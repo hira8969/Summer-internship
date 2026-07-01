@@ -1,27 +1,43 @@
 package Arrays;
 
 public class FindDuplicateFileinSystem {
+    import java.util.*;
+
+class Solution {
     public List<List<String>> findDuplicate(String[] paths) {
+
         Map<String, List<String>> map = new HashMap<>();
+
         for (String path : paths) {
+
             String[] parts = path.split(" ");
             String dir = parts[0];
+
             for (int i = 1; i < parts.length; i++) {
+
                 String file = parts[i];
-                int idx = file.indexOf('(');
-                String fileName = file.substring(0, idx);
-                String content = file.substring(idx + 1, file.length() - 1);
+
+                int open = file.indexOf('(');
+                int close = file.indexOf(')');
+
+                String fileName = file.substring(0, open);
+                String content = file.substring(open + 1, close);
+
                 String fullPath = dir + "/" + fileName;
-                map.computeIfAbsent(content, k -> new ArrayList<>()).add(fullPath);
+
+                map.computeIfAbsent(content, k -> new ArrayList<>())
+                   .add(fullPath);
             }
         }
 
-        List<List<String>> result = new ArrayList<>();
-        for (List<String> group : map.values()) {
-            if (group.size() > 1) {
-                result.add(group);
+        List<List<String>> ans = new ArrayList<>();
+
+        for (List<String> files : map.values()) {
+            if (files.size() > 1) {
+                ans.add(files);
             }
         }
-        return result;
+
+        return ans;
     }
 }

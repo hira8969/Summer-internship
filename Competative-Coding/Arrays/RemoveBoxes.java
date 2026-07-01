@@ -1,7 +1,6 @@
 package Arrays;
 //546. Remove Boxes
 
-
     
 public class RemoveBoxes {
     int[][][] dp;

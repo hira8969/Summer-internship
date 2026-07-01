@@ -22,7 +22,7 @@ public class OptimalDivision {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        OptimalDivision sol = new OptimalDivision();
 
         int[] nums = {1000, 100, 10, 2};
 

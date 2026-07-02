@@ -4,7 +4,6 @@ package Arrays;
 import java.util.*;
 public class TaskScheduler {
 
-
     public static int leastInterval(char[] tasks, int n) {
 
         int[] freq = new int[26];

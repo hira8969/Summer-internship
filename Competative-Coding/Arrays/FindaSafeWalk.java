@@ -4,8 +4,7 @@ package Arrays;
     
 import java.util.*;
 
-public class Main {
-
+public class FindaSafeWalk {
     public static boolean findSafeWalk(List<List<Integer>> grid, int health) {
 
         int m = grid.size();

@@ -5,7 +5,6 @@ import java.util.*;
 public class FindKClosestElements {
     
 
-
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
         int left = 0;
         int right = arr.length - k;

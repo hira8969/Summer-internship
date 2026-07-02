@@ -2,7 +2,7 @@ package Arrays;
 
 public class BinarySearch {
     
-public class Main {
+
 
     public static int search(int[] nums, int target) {
         int left = 0;

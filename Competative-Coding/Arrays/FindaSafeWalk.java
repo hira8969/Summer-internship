@@ -1,6 +1,5 @@
 package Arrays;
-//3286. Find a Safe Walk Through a Grid
-    
+//3286. Find a Safe Walk Through a Grid  
 import java.util.*;
 
 public class FindaSafeWalk {

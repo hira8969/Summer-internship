@@ -4,7 +4,7 @@ public class TaskScheduler {
     
 import java.util.*;
 
-public class Main {
+
 
     public static int leastInterval(char[] tasks, int n) {
 

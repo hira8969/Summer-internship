@@ -1,7 +1,6 @@
 package Arrays;
 //621. Task Scheduler
-
-    
+   
 import java.util.*;
 public class TaskScheduler {
 

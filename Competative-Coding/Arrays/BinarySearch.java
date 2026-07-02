@@ -1,7 +1,6 @@
 package Arrays;
 //704. Binary Search
-public class BinarySearch {
-    
+public class BinarySearch {  
 
     public static int search(int[] nums, int target) {
         int left = 0;

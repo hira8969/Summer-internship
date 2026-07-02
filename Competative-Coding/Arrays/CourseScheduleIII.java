@@ -1,11 +1,10 @@
 package Arrays;
 //630. Course Schedule III
-public class CourseScheduleIII {
+
     
 import java.util.*;
 
-public class Main {
-
+public class CourseScheduleIII {
     public static int scheduleCourse(int[][] courses) {
 
         Arrays.sort(courses, (a, b) -> a[1] - b[1]);

@@ -28,7 +28,7 @@ public class FindKClosestElements {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        FindKClosestElements sol = new FindKClosestElements();
 
         int[] arr = {1, 2, 3, 4, 5};
         int k = 4;

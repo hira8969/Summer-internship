@@ -1,8 +1,9 @@
 package Arrays;
 //658. Find K Closest Elements
+import java.util.*;
+
 public class FindKClosestElements {
     
-import java.util.*;
 
 
     public List<Integer> findClosestElements(int[] arr, int k, int x) {

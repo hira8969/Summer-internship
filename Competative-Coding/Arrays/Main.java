@@ -1,6 +1,6 @@
 package Arrays;
 
-public class FindaSafeWalk {
+
     
 import java.util.*;
 

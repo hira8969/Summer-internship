@@ -1,11 +1,10 @@
 package String;
 
-public class Sum3 {
+
     
 import java.util.*;
 
-public class Main {
-
+public class Sum3 {
     public static List<List<Integer>> threeSum(int[] nums) {
 
         List<List<Integer>> ans = new ArrayList<>();

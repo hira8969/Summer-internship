@@ -1,12 +1,11 @@
 package String;
 //8. String to Integer (atoi)
 
-public class StringtoInteger {
+
     
 import java.util.*;
 
-public class Main {
-
+public class StringtoInteger {
     public static int myAtoi(String s) {
 
         int i = 0;

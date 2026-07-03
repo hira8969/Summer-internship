@@ -1,11 +1,10 @@
 package String;
 
-public class ValidParentheses {
+
     
 import java.util.*;
 
-public class Main {
-
+public class ValidParentheses {
     public static boolean isValid(String s) {
 
         Stack<Character> stack = new Stack<>();

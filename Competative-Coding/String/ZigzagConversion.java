@@ -1,11 +1,10 @@
 package String;
 //6. Zigzag Conversion
-public class ZigzagConversion {
+
     
 import java.util.*;
 
-public class Solution {
-
+public class ZigzagConversion {
     public static String convert(String s, int numRows) {
 
         if (numRows == 1 || s.length() <= numRows) {

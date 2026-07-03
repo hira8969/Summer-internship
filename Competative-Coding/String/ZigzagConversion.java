@@ -1,7 +1,6 @@
 package String;
 //6. Zigzag Conversion
-
-    
+   
 import java.util.*;
 
 public class ZigzagConversion {

@@ -2,7 +2,7 @@ package String;
 
 public class RomantoInteger {
     
-public class Main {
+
 
     public static int romanToInt(String s) {
 

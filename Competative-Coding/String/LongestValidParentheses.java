@@ -1,6 +1,6 @@
 package String;
 //32. Longest Valid Parentheses
-    
+
 import java.util.*;
 
 public class LongestValidParentheses {

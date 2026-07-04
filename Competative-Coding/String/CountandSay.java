@@ -1,11 +1,10 @@
 package String;
 //38. Count and Say
-public class CountandSay {
+
     
 import java.util.*;
 
-public class Main {
-
+public class CountandSay {
     public static String countAndSay(int n) {
 
         String result = "1";

@@ -1,7 +1,7 @@
 package String;
 
 public class MultiplyStrings {
-    
+//43. Multiply Strings    
 import java.util.*;
 
 public class Main {

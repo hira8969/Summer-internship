@@ -1,11 +1,10 @@
 package String;
 
-public class GenerateParentheses {
+
     
 import java.util.*;
 
-public class Main {
-
+public class GenerateParentheses {
     public static List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
         backtrack(result, "", 0, 0, n);

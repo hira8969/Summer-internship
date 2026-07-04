@@ -1,11 +1,10 @@
 package String;
 
-public class MultiplyStrings {
+
 //43. Multiply Strings    
 import java.util.*;
 
-public class Main {
-
+public class MultiplyStrings {
     public static String multiply(String num1, String num2) {
 
         if (num1.equals("0") || num2.equals("0")) {

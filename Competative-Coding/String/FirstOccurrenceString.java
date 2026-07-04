@@ -1,11 +1,10 @@
 package String;
 
-public class FirstOccurrenceString {
+
     
 import java.util.*;
 
-public class Main {
-
+public class FirstOccurrenceString {
     public static int strStr(String haystack, String needle) {
 
         int n = haystack.length();

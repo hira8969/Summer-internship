@@ -9,6 +9,8 @@ public class GenerateParentheses {
         return result;
     }
 
+
+    
     private static void backtrack(List<String> result, String current,
                                   int open, int close, int n) {
 

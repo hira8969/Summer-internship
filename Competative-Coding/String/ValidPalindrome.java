@@ -2,7 +2,7 @@ package String;
 //125. Valid Palindrome
 public class ValidPalindrome {
     
-public class Main {
+
 
     public static boolean isPalindrome(String s) {
         int left = 0;

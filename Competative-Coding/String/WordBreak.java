@@ -2,12 +2,11 @@ package String;
 
 
 
-public class WordBreak {
+
     
 import java.util.*;
 
-public class Main {
-
+public class WordBreak {
     public static boolean wordBreak(String s, List<String> wordDict) {
         Set<String> set = new HashSet<>(wordDict);
         int n = s.length();

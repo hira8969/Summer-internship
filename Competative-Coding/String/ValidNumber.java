@@ -2,7 +2,7 @@ package String;
 
 public class ValidNumber {
     
-public class Main {
+
 
     public static boolean isNumber(String s) {
         boolean digitSeen = false;

@@ -5,16 +5,42 @@ public class ValidNumber {
 public class Main {
 
     public static boolean isNumber(String s) {
-        return s.matches("[+-]?((\\d+\\.?\\d*)|(\\.\\d+))([eE][+-]?\\d+)?");
+        boolean digitSeen = false;
+        boolean dotSeen = false;
+        boolean eSeen = false;
+        boolean digitAfterE = true;
+
+        for (int i = 0; i < s.length(); i++) {
+            char ch = s.charAt(i);
+
+            if (Character.isDigit(ch)) {
+                digitSeen = true;
+                digitAfterE = true;
+            } 
+            else if (ch == '.') {
+                if (dotSeen || eSeen) return false;
+                dotSeen = true;
+            } 
+            else if (ch == 'e' || ch == 'E') {
+                if (eSeen || !digitSeen) return false;
+                eSeen = true;
+                digitAfterE = false;
+            } 
+            else if (ch == '+' || ch == '-') {
+                if (i != 0 && s.charAt(i - 1) != 'e' && s.charAt(i - 1) != 'E')
+                    return false;
+            } 
+            else {
+                return false;
+            }
+        }
+
+        return digitSeen && digitAfterE;
     }
 
     public static void main(String[] args) {
         String s = "2e10";
 
-        if (isNumber(s)) {
-            System.out.println("true");
-        } else {
-            System.out.println("false");
-        }
+        System.out.println(isNumber(s));
     }
 }

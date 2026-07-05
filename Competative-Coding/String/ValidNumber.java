@@ -3,7 +3,6 @@ package String;
 public class ValidNumber {
     
 
-
     public static boolean isNumber(String s) {
         boolean digitSeen = false;
         boolean dotSeen = false;

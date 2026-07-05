@@ -2,7 +2,7 @@ package String;
 //151. Reverse Words in a String
 public class ReverseWordInString {
     
-public class Main {
+
     public static String reverseWords(String s) {
         String[] words = s.trim().split("\\s+");
 

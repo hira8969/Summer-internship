@@ -1,11 +1,10 @@
 package String;
 
-public class BasicCalculator {
+
     
 import java.util.*;
 
-public class Main {
-
+public class BasicCalculator {
     public static int calculate(String s) {
         Stack<Integer> stack = new Stack<>();
 

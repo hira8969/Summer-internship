@@ -2,7 +2,7 @@ package String;
 
 public class IntegertoEnglishWords {
     
-class Solution {
+
 
     private final String[] below20 = {
         "", "One", "Two", "Three", "Four", "Five", "Six",

@@ -2,7 +2,6 @@ package String;
 //214. Shortest Palindrome
 public class ShortestPalindrome {
     
-
     public String shortestPalindrome(String s) {
         int n = s.length();
 

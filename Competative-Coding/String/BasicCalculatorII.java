@@ -1,11 +1,10 @@
 package String;
 
-public class BasicCalculatorII {
+
     
 import java.util.Scanner;
 
-public class Main {
-
+public class BasicCalculatorII {
     public static int calculate(String s) {
         int result = 0;
         int lastNum = 0;

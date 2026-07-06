@@ -2,7 +2,7 @@ package String;
 
 public class ShortestPalindrome {
     
-class Solution {
+
     public String shortestPalindrome(String s) {
         int n = s.length();
 

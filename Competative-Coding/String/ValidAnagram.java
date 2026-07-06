@@ -1,11 +1,9 @@
 package String;
 
-public class ValidAnagram {
     
 import java.util.Scanner;
 
-public class Main {
-
+public class ValidAnagram {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;

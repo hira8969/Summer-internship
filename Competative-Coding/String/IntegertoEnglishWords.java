@@ -40,7 +40,7 @@ public class IntegertoEnglishWords {
 
 public class Main {
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        IntegertoEnglishWords sol = new IntegertoEnglishWords();
 
         int num = 123;
         System.out.println(sol.numberToWords(num));

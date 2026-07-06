@@ -1,5 +1,6 @@
 package String;
 //273. Integer to English Words
+
 class IntegertoEnglishWords {
     
 
@@ -10,7 +11,7 @@ class IntegertoEnglishWords {
         "Seventeen", "Eighteen", "Nineteen"
     };
 
-    
+
     private final String[] tens = {
         "", "", "Twenty", "Thirty", "Forty",
         "Fifty", "Sixty", "Seventy", "Eighty", "Ninety"

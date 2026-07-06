@@ -1,6 +1,6 @@
 package String;
 
-public class IntegertoEnglishWords {
+class IntegertoEnglishWords {
     
 
 
@@ -38,7 +38,7 @@ public class IntegertoEnglishWords {
     }
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         IntegertoEnglishWords sol = new IntegertoEnglishWords();
 

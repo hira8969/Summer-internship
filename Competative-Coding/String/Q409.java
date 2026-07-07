@@ -2,7 +2,6 @@ package String;
 //409. Longest Palindrome
 public class Q409 {
     
-public class Main {
     public static int longestPalindrome(String s) {
         int[] freq = new int[128];
 

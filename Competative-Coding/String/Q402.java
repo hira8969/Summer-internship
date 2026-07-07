@@ -2,7 +2,7 @@ package String;
 //402. Remove K Digits
 public class Q402 {
     
-public class Main {
+
 
     public static String removeKdigits(String num, int k) {
         StringBuilder stack = new StringBuilder();

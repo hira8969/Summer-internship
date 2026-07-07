@@ -1,11 +1,11 @@
 package String;
 //394. Decode String
-public class Q394 {
+
     
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) {
+public class Q394
+{    public static void main(String[] args) {
         String s = "3[a2[c]]";
 
         System.out.println(decodeString(s));

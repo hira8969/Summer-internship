@@ -4,7 +4,6 @@ package patternprinting;
 
 public class Q392 {
     
-public class Main {
     public static void main(String[] args) {
         Solution sol = new Solution();
 

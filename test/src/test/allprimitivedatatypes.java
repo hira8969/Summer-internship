@@ -3,7 +3,7 @@ package test;
 public class allprimitivedatatypes {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		 // this is for Integer 
         byte byteV = 127;
         short shortV = 32000;

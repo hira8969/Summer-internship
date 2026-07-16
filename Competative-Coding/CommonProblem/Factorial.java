@@ -11,12 +11,10 @@ public class Factorial {
     }
     public static long fact(int n)
     {
-        int fac=0;
-        while(n>0)
+        int fac=1;
+        for(int i=1;i<=n;i++)
         {
-            int last = n%10;
-            fac= (fac*10) + last;
-            n=n/10;
+            fac= fac*i;
         }
         return fac;
     }

@@ -8,7 +8,7 @@ public class Factorial {
         System.out.println("Enter Number Here: ");
         int n=sc.nextInt();
         System.out.println("Factorial of a number is: "+ fact(n));
-    }
+    }   
     public static long fact(int n)
     {
         int fac=1;

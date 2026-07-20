@@ -2,7 +2,7 @@ package org.example.SlidingWindow;
 
 public class ZeroSumSubarray {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, -2, -3, -4, -8};
+        int[] arr = {0, 0, 5, 5, 0, 0};
         ZeroSum(arr);
     }
     public static void ZeroSum(int [] arr)
